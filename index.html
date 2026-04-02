@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Information Chatbot</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f4f6f9;
+}
+
+header{
+background:#2c3e50;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+section{
+padding:40px;
+margin:20px;
+background:white;
+border-radius:10px;
+box-shadow:0px 0px 10px #ccc;
+}
+
+h2{
+color:#2c3e50;
+}
+
+ul{
+line-height:1.8;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#2c3e50;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>College Information Chatbot</h1>
+<p>AI Based Student Support System</p>
+</header>
+
+<section>
+
+<h2>Project Description</h2>
+
+<p>
+The College Information Chatbot is an AI powered system developed using
+Dialogflow. It helps students quickly obtain information about the college
+such as admission process, courses offered, fee structure, hostel facilities,
+placement details and contact information.
+
+The chatbot automates student queries and provides instant responses without
+human intervention.
+</p>
+
+</section>
+
+<section>
+
+<h2>Objectives</h2>
+
+<ul>
+<li>Provide instant information about college</li>
+<li>Reduce workload of admission office</li>
+<li>Help students get information 24/7</li>
+<li>Improve communication between college and students</li>
+<li>Automate frequently asked questions</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Intents Used in Chatbot</h2>
+
+<ul>
+<li>Greeting</li>
+<li>Admission Process</li>
+<li>Eligibility Criteria</li>
+<li>Courses Information</li>
+<li>Fees Structure</li>
+<li>Required Documents</li>
+<li>Hostel Information</li>
+<li>Placement Information</li>
+<li>College Location</li>
+<li>Contact Information</li>
+<li>Default Welcome Intent</li>
+<li>Default Fallback Intent</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Chat with our Bot</h2>
+
+<p>Ask any question about admission, courses, hostel, placements etc.</p>
+
+</section>
+
+
+<!-- Dialogflow Chatbot Integration -->
+
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+<df-messenger
+intent="WELCOME"
+chat-title="CollegeBot"
+agent-id="5e8521e8-adc1-4e5a-886b-323ef0fc6598"
+language-code="en">
+</df-messenger>
+
+
+<footer>
+
+<p>College Information Chatbot Project</p>
+<p>Developed using Dialogflow</p>
+
+</footer>
+
+</body>
+</html>
